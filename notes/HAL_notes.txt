@@ -1,0 +1,22 @@
+Što je HAL?
+HAL je kod koje obavlja ulogu komunikacije između programa i samog sklopovlja.
+
+Kako je izveden HAL?
+U praksi programer koristi HAL kao biblioteku koja sadrži potrebne funkcije za komunikaciju s hardverom, 
+te programer onda obavlja komunikaciju pozivanjem tih funkcija.
+Sami HAL, ne mora, ali je poželjno, je pisan u programskom jeziku koji je blizak hardveru, preferabilno Assembly,
+ali od viših programskih jezika najbolji je C.
+
+Zašto je potreban HAL?
+Postojanje HAL-a uvelike olakšava prenošenje koda s jedne platforme na drugu.
+Na primjer recimo da program čita neki podatak s senzora.
+Bez HAL-a podrebno je ručo kofigurirati registre i čitati ih, a oni su vrlo vjerojarno drukčiji od platforme do platforme.
+U tom slučaju na drugoj platformi je potrebno pogledati koji su relevantni registri te izmijeniti kod da postavlja, 
+odnosno čita te registre.
+No ukoliko postoji HAL to postaje samo pozivanje par funkcija.
+Ovaj primjer senzora je dosta jednostavan i možda se iz njega ne vidi zašto je potreban HAL,
+ali ako gledate neki kompleksniji sustav tipa array senzora ili neki tip tipkovnice, onda postaje
+očito kako uz HAL je konfiguriranje, čitanje i pisanje podataka puno jednostavnije kada je samo potrebno pozvati funkciju.
+
+Izvori:
+http://ww1.microchip.com/downloads/en/DeviceDoc/hardware-abstraction-layer.pdf
