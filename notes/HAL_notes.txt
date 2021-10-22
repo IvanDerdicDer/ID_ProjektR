@@ -18,5 +18,12 @@ Ovaj primjer senzora je dosta jednostavan i možda se iz njega ne vidi zašto je
 ali ako gledate neki kompleksniji sustav tipa array senzora ili neki tip tipkovnice, onda postaje
 očito kako uz HAL je konfiguriranje, čitanje i pisanje podataka puno jednostavnije kada je samo potrebno pozvati funkciju.
 
+HAL vs. driver
+Razlika je u tome koje abstrakcije rade, odnosno što skrivaju.
+HAL skriva hardver.
+Driver skriva kompleksnije algoritme potrebne za rad s harverom, a za te algoritme koristi HAL.
+
 Izvori:
 http://ww1.microchip.com/downloads/en/DeviceDoc/hardware-abstraction-layer.pdf
+https://www.quora.com/What-is-the-difference-between-hardware-abstraction-layer-and-a-device-driver?share=1
+https://www.quora.com/What-is-the-difference-between-a-Kernel-and-a-HAL-Hardware-Abstraction-Layer

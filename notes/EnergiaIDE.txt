@@ -1,0 +1,2 @@
+Energia IDE je program za programiranje TI mikrokontrolera na način i koristeći funkcije koje bi 
+koristili za programiranje Arduino mikrokontrolera.

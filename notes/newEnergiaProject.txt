@@ -1,0 +1,7 @@
+Kako ne želimo pisati koje registre je potrebno je koristiti HAL.
+Pošto TI u Code Composeru (CC) ne daje ikakav HAL možemo koristiti HAl koji pruža Energia IDE.
+
+Za to je prvo ptrebno skinuti Energia ide: https://energia.nu/
+Nakon toga u CC odemo Project->New Energia Sketch.
+Tu će nas CC tražiti da mu damo putanju do lokacije gdje smo instalirali Energia IDE.
+Nakon toga je moguće kreirati novi Energia Sketch unutar CC-a, te uz to koristiti debug od CC-a.
