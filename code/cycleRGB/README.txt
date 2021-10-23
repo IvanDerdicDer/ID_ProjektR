@@ -1,0 +1,1 @@
+Cycles between the red, green, and blue LED on the MSP432P401R board

@@ -1,0 +1,1 @@
+Blinks the blue LED while button 1 is pressed on MSP432P401R board

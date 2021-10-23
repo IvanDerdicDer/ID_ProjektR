@@ -1,0 +1,1 @@
+https://energia.nu/pinmaps/img/MSP-EXP432P401R.jpg - Energia pinmap of MSP432P401R
