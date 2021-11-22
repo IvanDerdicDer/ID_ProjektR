@@ -1,0 +1,7 @@
+Naziv projekta: Ugradbeni sustav za upravljanje laboratorijskom maketom mobilnog robota
+Ciljevi: Izrada programa upravljanja laboratorijskom maketom mobilnog robota
+Opis izrade:
+	- upoznavanje s elektro inžinjerskim pojmovima poput napona, struje, snage i energije
+	- sučeljavanje microcontrollera s senzorima, rad s motorima, concept PWM-a (pulse with modulation), analogno digitalna konverzija, digitalno analogna konverzija
+	- dizaj softwera i testiranje
+	- izgradnja sistema pomoću determinističkih automata, upravljanje zatvorenom petljom, Bluetooth, Internet Of Things

@@ -13,4 +13,5 @@
 	<ignoreDefaultDeviceSettings value="true"/>
 	<origin value="D:\ProgramFiles\energia-1.8.10E23\examples\01.Basics\BareMinimum\BareMinimum.ino"/>
 	<filesToOpen value="cycleRGB.ino"/>
+	<isTargetManual value="false"/>
 </projectOptions>

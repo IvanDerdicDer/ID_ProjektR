@@ -13,4 +13,5 @@
 	<ignoreDefaultDeviceSettings value="true"/>
 	<origin value="D:\ProgramFiles\energia-1.8.10E23\examples\10.MultiTasking\TimerLibrary\TimerLibrary.ino"/>
 	<filesToOpen value="semophoreTimer.ino"/>
+	<isTargetManual value="false"/>
 </projectOptions>

@@ -3,12 +3,12 @@
 bool buttonState = 0;
 
 void setup() {
-  pinMode(PUSH1, INPUT_PULLUP);
+  pinMode(PUSH2, INPUT_PULLUP);
   pinMode(BLUE_LED, OUTPUT);
 }
 
 void loop() {
-  buttonState = digitalRead(PUSH1);
+  buttonState = digitalRead(PUSH2);
   if(!buttonState){
       digitalWrite(BLUE_LED, HIGH);
       delay(250);
